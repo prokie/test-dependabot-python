@@ -1,0 +1,17 @@
+
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools", "setuptools-scm"]
+
+[project]
+classifiers = []
+dependencies = [
+  "requests==2.28.0",
+]
+description = "My package description"
+dynamic = ["version"]
+keywords = ["one", "two"]
+license = {text = "BSD 3-Clause License"}
+name = "my_package"
+readme = "README.rst"
+requires-python = ">=3.7"
